@@ -16,3 +16,4 @@ node_modules
 wp-content/debug.log
 wp-content/wishlist-rollback/
 wp-content/wpcourseware_uploads/
+wp-content/languages/
