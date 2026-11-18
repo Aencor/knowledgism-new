@@ -16,6 +16,7 @@ $monk_includes = [
 	"functions/security.php", // Security focused settings
 	"functions/options.php", // ACF Theme Options
 	"functions/shortcodes.php", // Custom Wordpress Shortcodes for WYSIWYGs
+	"functions/woocommerce.php", // WooCommerce adjustments
 	"functions/blocks.php" // Declare Custom Blocks
 ];
 
@@ -34,6 +35,23 @@ function nylon_include($includes) {
 	}
 }
 nylon_include($monk_includes);
+
+/**
+ * Autoload classes from classes/ directory (Regla 5).
+ */
+spl_autoload_register(function ($class) {
+	$prefix = 'CodeByMonk\\';
+	$base_dir = get_template_directory() . '/classes/';
+	$len = strlen($prefix);
+	if (strncmp($prefix, $class, $len) !== 0) {
+		return;
+	}
+	$relative_class = substr($class, $len);
+	$file = $base_dir . str_replace('\\', '/', $relative_class) . '.php';
+	if (file_exists($file)) {
+		require_once $file;
+	}
+});
 
 /*
  * Editor styles

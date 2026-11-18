@@ -11,3 +11,8 @@ wp-content/themes/twentytwentytwo/
 wp-content/themes/twentytwentyfive/
 node_modules
 *.map
+.DS_Store
+*.log
+wp-content/debug.log
+wp-content/wishlist-rollback/
+wp-content/wpcourseware_uploads/

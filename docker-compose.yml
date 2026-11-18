@@ -63,7 +63,7 @@ services:
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     networks:
       default:
-      proxy-network:
+      local-network:
         aliases:
           - wordpress-knowledgismnex
 
@@ -72,6 +72,6 @@ volumes:
 
 networks:
   default:
-  proxy-network:
-    name: nathalielesbachescom_default
+  local-network:
+    name: local-network
     external: true

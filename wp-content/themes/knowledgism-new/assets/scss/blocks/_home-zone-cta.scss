@@ -1,0 +1,290 @@
+// ==========================================================================
+// Block: Home Carousel / Zone Assessment CTA (Regla 8)
+// ==========================================================================
+
+.home-carousel-block {
+  padding: 48px 0;
+
+  .home-carousel-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  .home-carousel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+
+  .home-carousel-tabs {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .home-carousel-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--muted);
+    background: var(--navysoft);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    user-select: none;
+
+    &:hover {
+      color: var(--navy);
+      background: #DEE7F0;
+      border-color: #BECEDE;
+    }
+
+    &.active {
+      background: var(--navy);
+      color: #fff;
+      border-color: var(--navy);
+
+      .tab-badge {
+        background: var(--gold);
+        color: var(--kn);
+      }
+    }
+
+    .tab-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: rgba(0, 23, 34, 0.08);
+      font-family: var(--mono);
+      font-size: 10px;
+      font-weight: 700;
+      line-height: 1;
+    }
+  }
+
+  .home-carousel-arrows {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .home-carousel-nav-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--navysoft);
+    color: var(--navy);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      background: var(--navy);
+      color: #fff;
+      transform: translateY(-1px);
+    }
+  }
+
+  .home-carousel-viewport {
+    overflow: hidden;
+    width: 100%;
+    border-radius: var(--r);
+  }
+
+  .home-carousel-track {
+    display: flex;
+    width: 100%;
+    transition: transform 0.42s cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: transform;
+  }
+
+  .home-carousel-slide {
+    flex: 0 0 100%;
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .home-slide-card {
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #E1E7ED;
+    background: var(--tint);
+    border-radius: var(--r);
+    padding: 26px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      border-color: #CBD5E1;
+      box-shadow: 0 6px 20px rgba(0, 23, 34, 0.04);
+    }
+  }
+
+  .home-slide-grid {
+    display: grid;
+    grid-template-columns: 1.25fr 0.75fr;
+    gap: 36px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .home-slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &.with-media {
+      flex-direction: row;
+      align-items: center;
+      gap: 28px;
+    }
+  }
+
+  .home-slide-cover-wrap {
+    flex: none;
+    width: 105px;
+    max-width: 120px;
+    filter: drop-shadow(0 8px 16px rgba(0, 23, 34, 0.16));
+    transition: transform 0.25s ease;
+
+    &:hover {
+      transform: translateY(-2px) scale(1.02);
+    }
+  }
+
+  .home-book-img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .bookstore-badge-box {
+    filter: none;
+    width: 95px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--navysoft);
+    border-radius: 12px;
+    border: 1px dashed #BECEDE;
+    color: var(--navy);
+  }
+
+  .bookstore-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-slide-heading {
+    font-family: var(--display);
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: var(--ink);
+    margin-top: 4px;
+  }
+
+  .home-slide-desc {
+    color: #4A5764;
+    font-size: 14.5px;
+    line-height: 1.6;
+    max-width: 52ch;
+  }
+
+  .home-slide-zones {
+    max-width: 280px;
+  }
+
+  .home-slide-action {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    min-width: 220px;
+  }
+
+  .home-carousel-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  .home-carousel-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background: #CBD5E1;
+    border: none;
+    transition: all 0.25s ease;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover {
+      background: #94A3B8;
+    }
+
+    &.active {
+      width: 24px;
+      background: var(--navy);
+    }
+  }
+
+  @media (max-width: 860px) {
+    .home-slide-grid {
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+
+    .home-slide-content.with-media {
+      flex-direction: row;
+      gap: 18px;
+    }
+
+    .home-slide-cover-wrap {
+      width: 85px;
+    }
+
+    .home-slide-action {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .home-carousel-tab {
+      font-size: 12px;
+      padding: 5px 11px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .home-slide-content.with-media {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .home-carousel-tab .tab-text {
+      font-size: 12px;
+    }
+  }
+}

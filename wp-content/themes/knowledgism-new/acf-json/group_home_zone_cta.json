@@ -1,0 +1,389 @@
+{
+    "key": "group_home_zone_cta",
+    "title": "Block - Home Carousel / Zone CTA",
+    "fields": [
+        {
+            "key": "field_hz_accordion_main",
+            "label": "Carrusel / Zone Assessment CTA",
+            "name": "accordion_main",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "open": 1,
+            "multi_expand": 1,
+            "endpoint": 0
+        },
+        {
+            "key": "field_hz_accordion_s1",
+            "label": "Slide 1: Mini Perfil (Personal Assessment)",
+            "name": "accordion_s1",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "open": 1,
+            "multi_expand": 1,
+            "endpoint": 0
+        },
+        {
+            "key": "field_hz_title",
+            "label": "Slide 1 - Title",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Not sure where to start?"
+        },
+        {
+            "key": "field_hz_desc",
+            "label": "Slide 1 - Description",
+            "name": "description",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Fourteen questions tell you which Zone you operate from, which of the three areas is holding you back, and which book to read first. Free, no card.",
+            "rows": 3
+        },
+        {
+            "key": "field_hz_button_text",
+            "label": "Slide 1 - Button Text",
+            "name": "button_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Find your Zone"
+        },
+        {
+            "key": "field_hz_button_url",
+            "label": "Slide 1 - Button URL",
+            "name": "button_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "https://app.zonesoflife.com/short-quiz/"
+        },
+        {
+            "key": "field_hz_subtext",
+            "label": "Slide 1 - Sub-label",
+            "name": "subtext",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Name and email only"
+        },
+        {
+            "key": "field_hz_accordion_s2",
+            "label": "Slide 2: Libro The Fire Within",
+            "name": "accordion_s2",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "open": 0,
+            "multi_expand": 1,
+            "endpoint": 0
+        },
+        {
+            "key": "field_hz_s2_kicker",
+            "label": "Slide 2 - Kicker",
+            "name": "s2_kicker",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Bestseller · By Ceil Stanford & Jeff Crippen"
+        },
+        {
+            "key": "field_hz_s2_title",
+            "label": "Slide 2 - Title",
+            "name": "s2_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "The Fire Within"
+        },
+        {
+            "key": "field_hz_s2_desc",
+            "label": "Slide 2 - Description",
+            "name": "s2_desc",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Stop feeling stuck, unlock your inner fire, and create a life you genuinely enjoy living with the Five Pillars of Power. Foreword by Robert & Kim Kiyosaki.",
+            "rows": 3
+        },
+        {
+            "key": "field_hz_s2_badge",
+            "label": "Slide 2 - Price / Badge",
+            "name": "s2_badge",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "$5.00 E-Book"
+        },
+        {
+            "key": "field_hz_s2_btn_text",
+            "label": "Slide 2 - Button Text",
+            "name": "s2_btn_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Get The Book — $5"
+        },
+        {
+            "key": "field_hz_s2_btn_url",
+            "label": "Slide 2 - Button URL",
+            "name": "s2_btn_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "/product/the-fire-within/"
+        },
+        {
+            "key": "field_hz_s2_image",
+            "label": "Slide 2 - Cover Image",
+            "name": "s2_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all"
+        },
+        {
+            "key": "field_hz_accordion_s3",
+            "label": "Slide 3: Libro The Zone Series (Pirámide)",
+            "name": "accordion_s3",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "open": 0,
+            "multi_expand": 1,
+            "endpoint": 0
+        },
+        {
+            "key": "field_hz_s3_kicker",
+            "label": "Slide 3 - Kicker",
+            "name": "s3_kicker",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Foundational Work · By Alan C. Walter"
+        },
+        {
+            "key": "field_hz_s3_title",
+            "label": "Slide 3 - Title",
+            "name": "s3_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "The Zone Series"
+        },
+        {
+            "key": "field_hz_s3_desc",
+            "label": "Slide 3 - Description",
+            "name": "s3_desc",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "The definitive book featuring the 4 Zones of Life pyramid (Red, Yellow, Green, and Gold). Learn the indicators of truth, mastery, and living at your highest ability.",
+            "rows": 3
+        },
+        {
+            "key": "field_hz_s3_badge",
+            "label": "Slide 3 - Price / Badge",
+            "name": "s3_badge",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "$27.00 E-Book"
+        },
+        {
+            "key": "field_hz_s3_btn_text",
+            "label": "Slide 3 - Button Text",
+            "name": "s3_btn_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Explore The Zone Series"
+        },
+        {
+            "key": "field_hz_s3_btn_url",
+            "label": "Slide 3 - Button URL",
+            "name": "s3_btn_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "/product/the-zone-series/"
+        },
+        {
+            "key": "field_hz_s3_image",
+            "label": "Slide 3 - Cover Image",
+            "name": "s3_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all"
+        },
+        {
+            "key": "field_hz_accordion_s4",
+            "label": "Slide 4: Catálogo Completo (Bookstore)",
+            "name": "accordion_s4",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "open": 0,
+            "multi_expand": 1,
+            "endpoint": 0
+        },
+        {
+            "key": "field_hz_s4_kicker",
+            "label": "Slide 4 - Kicker",
+            "name": "s4_kicker",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "The Complete Catalog · 50+ Titles"
+        },
+        {
+            "key": "field_hz_s4_title",
+            "label": "Slide 4 - Title",
+            "name": "s4_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Knowledgism Bookstore"
+        },
+        {
+            "key": "field_hz_s4_desc",
+            "label": "Slide 4 - Description",
+            "name": "s4_desc",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "The complete published written works and courses of Alan C. Walter across eleven categories. Acquired, downloaded, and read on your own.",
+            "rows": 3
+        },
+        {
+            "key": "field_hz_s4_badge",
+            "label": "Slide 4 - Badge",
+            "name": "s4_badge",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Eleven Categories · Instant Download"
+        },
+        {
+            "key": "field_hz_s4_btn_text",
+            "label": "Slide 4 - Button Text",
+            "name": "s4_btn_text",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "Browse All Books"
+        },
+        {
+            "key": "field_hz_s4_btn_url",
+            "label": "Slide 4 - Button URL",
+            "name": "s4_btn_url",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": "/bookstore/"
+        },
+        {
+            "key": "field_hz_accordion_settings",
+            "label": "Configuración del Carrusel",
+            "name": "accordion_settings",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "open": 0,
+            "multi_expand": 1,
+            "endpoint": 0
+        },
+        {
+            "key": "field_hz_autoplay",
+            "label": "Activar Autoplay",
+            "name": "carousel_autoplay",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "message": "",
+            "default_value": 1,
+            "ui": 1
+        },
+        {
+            "key": "field_hz_delay",
+            "label": "Intervalo de Transición (Milisegundos)",
+            "name": "carousel_delay",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "default_value": 6000,
+            "min": 2000,
+            "max": 20000,
+            "step": 500
+        },
+        {
+            "key": "field_hz_accordion_end",
+            "label": "",
+            "name": "accordion_end",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf/home-zone-cta"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Configuración dinámica del bloque de Carrusel y Evaluación de Zonas",
+    "show_in_rest": 0
+}
