@@ -29,6 +29,12 @@ add_filter( 'wpmdb_http_request_args', function( $args ) {
 }, PHP_INT_MAX );
 
 // Mock WP Engine constants and prevent Varnish socket errors in local environment
+if ( ! defined( 'PWP_NAME' ) ) {
+    define( 'PWP_NAME', 'knowledgism' );
+}
+if ( ! defined( 'WP_CACHE_KEY_SALT' ) ) {
+    define( 'WP_CACHE_KEY_SALT', 'local' );
+}
 if ( ! defined( 'WPE_CLUSTER_TYPE' ) ) {
     define( 'WPE_CLUSTER_TYPE', 'pod' );
 }
